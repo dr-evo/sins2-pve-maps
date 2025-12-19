@@ -1,0 +1,10 @@
+{
+    "scenarios": [
+		"3v3ai",
+		"4v4ai",
+		"5v5ai"
+    ],
+    "fake_server_scenarios": [],
+    "dlc_scenarios": [],
+    "dlc_multiplayer_scenarios": []
+}

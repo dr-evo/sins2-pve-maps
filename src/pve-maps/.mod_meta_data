@@ -1,0 +1,11 @@
+{
+    "compatibility_version": 2,
+	"display_name": "PVE Maps",
+    "display_version": "1.0.0",
+    "short_description": "Set of PVE maps optimized for reasonable AI behavior.",
+    "long_description": "- minor factions in reach of central planets \n- No aluxians or pirates near used routes \n- path to trading factions not going through enemy territory \n- no space for AI to muck about",
+	"logos": {
+        "large_logo": "picture.png",
+        "small_logo": "picture.png"
+    }
+}

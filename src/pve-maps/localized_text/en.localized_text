@@ -1,0 +1,10 @@
+{
+	"scenario.3v3ai.name": "3v3 vs AI",
+	"scenario.3v3ai.desc": "Optimized for semi-competent AI behaviour",
+	"scenario.4v4ai.name": "4v4 vs AI",
+	"scenario.4v4ai.desc": "Optimized for semi-competent AI behaviour",
+	"scenario.5v5ai.name": "5v5 vs AI",
+	"scenario.5v5ai.desc": "Optimized for semi-competent AI behaviour",
+	"scenario.pve.objective_description": "Eliminate your rivals.",
+	"scenario.pve.start_window_description": "Scenario:\\n-wormhole and star travel disabled"
+}

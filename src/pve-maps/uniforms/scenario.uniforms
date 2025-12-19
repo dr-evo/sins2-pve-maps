@@ -2,7 +2,8 @@
     "scenarios": [
 		"3v3ai",
 		"4v4ai",
-		"5v5ai"
+		"5v5ai",
+        "3v3ai-safeexpand"
     ],
     "fake_server_scenarios": [],
     "dlc_scenarios": [],

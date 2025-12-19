@@ -1,0 +1,11 @@
+{
+  "compatibility_version": 2,
+  "display_name": "TODO - mod name",
+  "display_version": "1.0.0",
+  "short_description": "TODO - short description",
+  "long_description": "TODO - long description",
+  "logos": {
+    "large_logo": "picture.png",
+    "small_logo": "picture.png"
+  }
+}

@@ -8,5 +8,5 @@
     "scenario.3v3ai-safeexpand.name": "3v3 vs AI safe expand",
     "scenario.3v3ai-safeexpand.desc": "Optimized for semi-competent AI behaviour",
 	"scenario.pve.objective_description": "Eliminate your rivals.",
-	"scenario.pve.start_window_description": "Scenario:\\n-TODO description goes here"
+	"scenario.pve.start_window_description": "Scenario: \\n - ai starts with lvl 1 tech \\n - ai starts with fully built up homeworld, starbase and PJI \\n - pirates and aluxians have planetary shields"
 }

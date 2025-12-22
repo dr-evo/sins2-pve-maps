@@ -447,44 +447,44 @@
                     "filling_name": "random_uncolonizable_cloud",
                     "position": [0.0, 50.0],
                     "chance_of_loot": 0.0
+                },
+                {
+                    "id": 280,
+                    "filling_name": "random_hive_asteroid",
+                    "position": [1000.0, 100.0],
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 281,
+                    "filling_name": "random_hive_asteroid",
+                    "position": [1000.0, 400.0],
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 279,
+                    "filling_name": "random_hive_asteroid",
+                    "position": [1000.0, -200.0],
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 284,
+                    "filling_name": "random_hive_asteroid",
+                    "position": [-800.0, -200.0],
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 283,
+                    "filling_name": "random_hive_asteroid",
+                    "position": [-800.0, 100.0],
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 282,
+                    "filling_name": "random_hive_asteroid",
+                    "position": [-800.0, 400.0],
+                    "chance_of_loot": 0.0
                 }
             ]
-        },
-        {
-            "id": 279,
-            "filling_name": "random_hive_asteroid",
-            "position": [1000.0, -200.0],
-            "chance_of_loot": 0.0
-        },
-        {
-            "id": 280,
-            "filling_name": "random_hive_asteroid",
-            "position": [1000.0, 100.0],
-            "chance_of_loot": 0.0
-        },
-        {
-            "id": 281,
-            "filling_name": "random_hive_asteroid",
-            "position": [1000.0, 400.0],
-            "chance_of_loot": 0.0
-        },
-        {
-            "id": 282,
-            "filling_name": "random_hive_asteroid",
-            "position": [-800.0, 400.0],
-            "chance_of_loot": 0.0
-        },
-        {
-            "id": 283,
-            "filling_name": "random_hive_asteroid",
-            "position": [-800.0, 100.0],
-            "chance_of_loot": 0.0
-        },
-        {
-            "id": 284,
-            "filling_name": "random_hive_asteroid",
-            "position": [-800.0, -200.0],
-            "chance_of_loot": 0.0
         }
     ],
     "phase_lanes": [

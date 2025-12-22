@@ -37,31 +37,29 @@
     "player_home_planet": [
         {
             "player_index": 3,
-            "faction_allowed": "vasari_loyalist",
-            "starting_track_levels": {"logistics": 5, "defense": 5, "commerce": 5, "mining": 5, "research": 5},
+            "faction_allowed": "trader_loyalist",
+            "starting_track_levels": {"logistics": 5, "defense": 5, "commerce": 5, "mining": 5, "research": 5, "focus": 5},
             "starting_is_colonized": true,
             "starting_militia_supply": 0
         },
         {
             "player_index": 4,
-            "faction_allowed": "trader_rebel",
-            "starting_track_levels": {"logistics": 5, "defense": 5, "commerce": 5, "mining": 5, "research": 5},
+            "faction_allowed": "trader_loyalist",
+            "starting_track_levels": {"logistics": 5, "defense": 5, "commerce": 5, "mining": 5, "research": 5, "focus": 5},
             "starting_is_colonized": true,
             "starting_militia_supply": 0
         },
         {
             "player_index": 5,
-            "faction_allowed": "advent_loyalist",
-            "starting_track_levels": {
-                "logistics": 5, "defense": 5, "commerce": 5, "mining": 5, "research": 5, "focus": 5
-            },
+            "faction_allowed": "trader_loyalist",
+            "starting_track_levels": {"logistics": 5, "defense": 5, "commerce": 5, "mining": 5, "research": 5, "focus": 5},
             "starting_is_colonized": true,
             "starting_militia_supply": 0
         }
     ],
     "starting_research": [
         {
-            "faction_allowed": "vasari_loyalist",
+            "faction_allowed": "trader_loyalist",
             "player_definitions": [
                 {
                     "player_index": 3,
@@ -70,30 +68,20 @@
                         {"domain": "military", "unlocked_tier": 2, "unlock_all_research_through_tier": 1}
                     ],
                     "other_unlocked_research": []
-                }
-            ]
-        },
-        {
-            "faction_allowed": "trader_rebel",
-            "player_definitions": [
+                },
                 {
                     "player_index": 4,
                     "domains_definitions": [
-                        {"domain": "civilian", "unlocked_tier": 1, "unlock_all_research_through_tier": 1},
-                        {"domain": "military", "unlocked_tier": 1, "unlock_all_research_through_tier": 1}
+                        {"domain": "civilian", "unlocked_tier": 2, "unlock_all_research_through_tier": 1},
+                        {"domain": "military", "unlocked_tier": 2, "unlock_all_research_through_tier": 1}
                     ],
                     "other_unlocked_research": []
-                }
-            ]
-        },
-        {
-            "faction_allowed": "advent_loyalist",
-            "player_definitions": [
+                },
                 {
                     "player_index": 5,
                     "domains_definitions": [
-                        {"domain": "civilian", "unlocked_tier": 1, "unlock_all_research_through_tier": 1},
-                        {"domain": "military", "unlocked_tier": 1, "unlock_all_research_through_tier": 1}
+                        {"domain": "civilian", "unlocked_tier": 2, "unlock_all_research_through_tier": 1},
+                        {"domain": "military", "unlocked_tier": 2, "unlock_all_research_through_tier": 1}
                     ],
                     "other_unlocked_research": []
                 }
@@ -102,30 +90,16 @@
     ],
     "starting_units_to_any_player_and_gravity_well": [
         {
-            "faction_allowed": "militia",
+            "faction_allowed": "aluxian_resurgence_npc",
             "faction_spawn_units": [
                 {
-                    "player_index": 3,
-                    "gravity_well_id": 8,
+                    "player_index": 10,
+                    "gravity_well_id": 28,
                     "spawn_units": {
                         "required_units": [
-                            {"unit": "vasari_civilian_research_lab_structure", "count": [10, 10]},
-                            {"unit": "vasari_military_research_lab_structure", "count": [10, 10]},
-                            {"unit": "vasari_culture_center_structure", "count": [2, 2]},
-                            {"unit": "vasari_exotic_factory_structure", "count": [4, 4]},
-                            {"unit": "vasari_factory_structure", "count": [4, 4]},
-                            {"unit": "vasari_fleet_beacon_structure", "count": [2, 2]},
-                            {"unit": "vasari_phase_gate_structure", "count": [1, 1]},
-                            {"unit": "vasari_phase_jump_inhibitor_structure", "count": [1, 1]},
-                            {"unit": "vasari_phase_synchronizer_structure", "count": [1, 1]},
                             {
                                 "unit": "dlc_ancient_starbase", "count": [1, 1],
-                                "options": {
-                                    "items": [
-                                        "dlc_ancient_starbase_planet_shield",
-                                        "dlc_ancient_starbase_phase_jump_inhibitor"
-                                    ]
-                                }
+                                "options": {"items": ["dlc_ancient_starbase_planet_shield"]}
                             }
                         ]
                     }
@@ -133,30 +107,16 @@
             ]
         },
         {
-            "faction_allowed": "vasari_loyalist",
+            "faction_allowed": "pirate_npc",
             "faction_spawn_units": [
                 {
-                    "player_index": 3,
-                    "gravity_well_id": 8,
+                    "player_index": 12,
+                    "gravity_well_id": 33,
                     "spawn_units": {
                         "required_units": [
-                            {"unit": "vasari_civilian_research_lab_structure", "count": [10, 10]},
-                            {"unit": "vasari_military_research_lab_structure", "count": [10, 10]},
-                            {"unit": "vasari_culture_center_structure", "count": [2, 2]},
-                            {"unit": "vasari_exotic_factory_structure", "count": [4, 4]},
-                            {"unit": "vasari_factory_structure", "count": [4, 4]},
-                            {"unit": "vasari_fleet_beacon_structure", "count": [2, 2]},
-                            {"unit": "vasari_phase_gate_structure", "count": [1, 1]},
-                            {"unit": "vasari_phase_jump_inhibitor_structure", "count": [1, 1]},
-                            {"unit": "vasari_phase_synchronizer_structure", "count": [1, 1]},
                             {
                                 "unit": "dlc_ancient_starbase", "count": [1, 1],
-                                "options": {
-                                    "items": [
-                                        "dlc_ancient_starbase_planet_shield",
-                                        "dlc_ancient_starbase_phase_jump_inhibitor"
-                                    ]
-                                }
+                                "options": {"items": ["dlc_ancient_starbase_planet_shield"]}
                             }
                         ]
                     }
@@ -164,61 +124,40 @@
             ]
         },
         {
-            "faction_allowed": "trader_rebel",
+            "faction_allowed": "trader_loyalist",
             "faction_spawn_units": [
+                {
+                    "player_index": 3,
+                    "gravity_well_id": 221,
+                    "spawn_units": {
+                        "required_units": [
+                            {
+                                "unit": "dlc_ancient_starbase", "count": [1, 1],
+                                "options": {"items": ["dlc_ancient_starbase_planet_shield", "dlc_ancient_starbase_phase_jump_inhibitor"]}
+                            }
+                        ]
+                    }
+                },
                 {
                     "player_index": 4,
-                    "gravity_well_id": 9,
+                    "gravity_well_id": 236,
                     "spawn_units": {
                         "required_units": [
-                            {"unit": "trader_civilian_research_lab_structure", "count": [10, 10]},
-                            {"unit": "trader_military_research_lab_structure", "count": [10, 10]},
-                            {"unit": "trader_culture_center_structure", "count": [2, 2]},
-                            {"unit": "trader_exotic_factory_structure", "count": [4, 4]},
-                            {"unit": "trader_frigate_factory_structure", "count": [4, 4]},
-                            {"unit": "trader_capital_ship_factory_structure", "count": [4, 4]},
-                            {"unit": "trader_rebel_titan_factory_structure", "count": [1, 1]},
-                            {"unit": "vasari_phase_gate_structure", "count": [1, 1]},
-                            {"unit": "trader_phase_jump_inhibitor_structure", "count": [1, 1]},
-                            {"unit": "trader_trade_port_structure", "count": [4, 4]},
                             {
-                                "unit": "trader_starbase", "count": [1, 1],
-                                "options": {
-                                    "items": [
-                                        "trader_starbase_planetary_shield_array"
-                                    ]
-                                }
+                                "unit": "dlc_ancient_starbase", "count": [1, 1],
+                                "options": {"items": ["dlc_ancient_starbase_planet_shield", "dlc_ancient_starbase_phase_jump_inhibitor"]}
                             }
                         ]
                     }
-                }
-            ]
-        },
-        {
-            "faction_allowed": "advent_loyalist",
-            "faction_spawn_units": [
+                },
                 {
                     "player_index": 5,
-                    "gravity_well_id": 10,
+                    "gravity_well_id": 251,
                     "spawn_units": {
                         "required_units": [
-                            {"unit": "advent_civilian_research_lab_structure", "count": [10, 10]},
-                            {"unit": "advent_military_research_lab_structure", "count": [10, 10]},
-                            {"unit": "advent_culture_center_structure", "count": [2, 2]},
-                            {"unit": "advent_exotic_factory_structure", "count": [4, 4]},
-                            {"unit": "advent_ship_factory_structure", "count": [4, 4]},
-                            {"unit": "advent_capital_ship_factory_structure", "count": [4, 4]},
-                            {"unit": "advent_loyalist_titan_factory_structure", "count": [1, 1]},
-                            {"unit": "vasari_phase_gate_structure", "count": [1, 1]},
-                            {"unit": "advent_phase_jump_inhibitor_structure", "count": [1, 1]},
-                            {"unit": "advent_unity_structure", "count": [5, 5]},
                             {
-                                "unit": "advent_starbase", "count": [1, 1],
-                                "options": {
-                                    "items": [
-                                        "advent_starbase_planetary_shield_array"
-                                    ]
-                                }
+                                "unit": "dlc_ancient_starbase", "count": [1, 1],
+                                "options": {"items": ["dlc_ancient_starbase_planet_shield", "dlc_ancient_starbase_phase_jump_inhibitor"]}
                             }
                         ]
                     }
